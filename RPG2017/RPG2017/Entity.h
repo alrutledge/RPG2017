@@ -20,7 +20,7 @@ public:
 
 	sf::Vector2f getRectPosition();
 
-	void animate(int row, float deltaTime);
+	//void animate(int row, float deltaTime);
 
 
 

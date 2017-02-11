@@ -167,6 +167,7 @@
   <ItemGroup>
     <ClInclude Include="Animator.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Appearance.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="TileData.h" />
     <ClInclude Include="TileMap.h" />

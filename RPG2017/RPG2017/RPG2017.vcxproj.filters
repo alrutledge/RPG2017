@@ -56,5 +56,8 @@
     <ClInclude Include="Animator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Appearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

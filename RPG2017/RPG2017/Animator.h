@@ -1,7 +1,8 @@
 #pragma once
+#include "Appearance.h"
 #include <SFML\Graphics.hpp>
 
-class Animator
+class Animator : public Appearance
 {
 
 private:
