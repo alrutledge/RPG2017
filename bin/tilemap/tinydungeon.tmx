@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="basictiles(1)" tilewidth="16" tileheight="16">
+  <image source="image/maptile/Tiny16-Complete-Spritesheet-Repack3.png" width="128" height="240"/>
+ </tileset>
+ <tileset firstgid="121" name="Tiny16-Complete-Spritesheet-Repack3" tilewidth="16" tileheight="16">
+  <image source="C:/Users/ARutledge/Desktop/Tiny16-Complete-Spritesheet-Repack3.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgeIiGGZBoXACfPD7z0OXwyQ8V8xjQ1KCzsQFcarHZP1QwPr+O4lE8iqmHGSiUx6YeGeASQ8cAhE8nYA==
+  </data>
+ </layer>
+ <layer name="GroundObject" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYECAuwzUAQvwyNlCaVU0PjLYRSV3DEXAxDg4zRoIAHP/BiD+CKWJARpoNDLoIcAnFcyB0vpofGxABkrjcx8pQJYINfj8a40mB3OfARqNDND9h8+/tAL43EdK/MoRYRex/pUj0jxywUcK9YPiltplCwgDAJZAD7A=
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKACEIRKeti9d6zb3LGiiIa7B9Bg48FMX5MIkA3MIjkZjONKYENOmTmVUGvtLaFfRs3c+OA/y6AS6fu6oGSCyS6858fqLmLUS3otCmX/ROO/30S7/0+y//j69qXi+rfiIk
+  </data>
+ </layer>
+ <layer name="Doors" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AINBOQNcYjXUtkdo2AUjIJRQAloIFIdANDrAa8=
+  </data>
+ </layer>
+ <layer name="WallObject" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+</map>

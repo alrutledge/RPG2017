@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilesetformattedupdate1" tilewidth="32" tileheight="32">
+  <image source="image/maptile/tilesetformattedupdate1.png" width="576" height="384"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8UAnEVTQwrwqJTYjGB7qBuAeKYephYrjogXIfIXcNhPtgaqjlPmLUjIKhAwB5/CmJ
+  </data>
+ </layer>
+ <layer name="Ground Objects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQ0g1gRiLSqZZwXE1kBsg0XuIhnm0dN9o2AUDGYAABWWAyo=
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztz7sOgkAQheEtFZDCUi5aUFJbUluqKLfSGyK+f+1fbrOZbEIIiZzkSzYzycmOUnP+KQs4cOFhBR9Lw3wt9G0QIkKMLXYIDPNE6EvtzlF7YZ9Z9h2E/dD/m/q9J5xx1N45LriiQIkKNRqh744Hbtr7iRdavNHhgx5fy3vmjJsfmpgN0Q==
+  </data>
+ </layer>
+ <layer name="WallObjects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxEYI7ETcbCR1RACrmj8AiAuJKCGFNAExM0U6B8Fo2AUUB8AABSOA5k=
+  </data>
+ </layer>
+</map>

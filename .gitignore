@@ -1,0 +1,6 @@
+*.exe
+*.obj
+*.db
+RPG2017/RPG2017/x64/
+*.exp
+*.tlog

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="town_forest_tiles16x16" tilewidth="32" tileheight="32">
+  <image source="image/maptile/town_forest_tiles16x16.png" width="320" height="352"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzjZmBg4B7Fo3gUj+JRPIpJxADhuxEx
+  </data>
+ </layer>
+ <layer name="Tree" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcwBaI7aioxx2IPUg0jxw9hNxBjjpi3UGuewcKKAKxEhAr4+DjUocLaAOxDhDr4uBjU4fPbFMgNgNicyx8ZH3I4uh2kut2XG7ApY6Q2ylVR2tATn6HAU8sYtTKC9jMJgVQ4i97LGLE+AubPloDAJSwEJU=
+  </data>
+ </layer>
+ <layer name="water" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFXgPtACLBUHHnKBjaYLCks2ggDkHDlIBgil00ah46AABQuQQp
+  </data>
+ </layer>
+ <layer name="chest" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh+gG+gHTAKRsEoGAUjAAAAUigADw==
+  </data>
+ </layer>
+</map>

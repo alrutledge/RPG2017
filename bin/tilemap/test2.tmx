@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="outside" tilewidth="16" tileheight="16">
+  <image source="C:/Users/ARutledge/Desktop/Tilesheets/timefantasy_tiles/timefantasy_tiles/outside.png" width="896" height="448"/>
+ </tileset>
+ <layer name="Ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyllNENgjAQhts10IQh9AlCYtjJuAMtsgozkWDYQR/sxV74PdoicskXaMt9/BTCUyn1cnQ6jHVsqZO7/uxoPHt93MeuSn2Puz99Esy7pbgnj3gv6sOefDc/X6v1/at/8FHmDPJtKdzzHsbsa2EvZS6ZjWqMZGQXYX50UZWeHs5Lfw86Yj4L32PKR++2ED4G81m9zGbhPkc99z0cgz/yXAW+FlzokMg89NxFIJ/R6y7KNwjfGPG1Ecchkk++H/SxU7ryhA9pIvOZ6J3c3NXvecwnvw2jZ1cm1ibvQp8JYPVyHf85vNYE4OtxLH2d6EHf3SN9KeQ/MZXvDUJDjgM=
+  </data>
+ </layer>
+ <layer name="GroundObjects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQCtgD8R2NDBzMAAAkiwAvQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk0kOwjAMRVN6AKZd70ALLOE80IGbtNyB+RqIWzCtuUJhybeaSm5UkoC65EtPkSv7R7ZTIcw6toRYOgVTocdG5PcQhd+kIT8PXiecTwM2ymXuC4zdKj4IwFDGNlJrRh/8EhAiPwIxSMDC4Ec1sTxpDnOcBxC5RQ8r5K/BBmzBrsaPakJZU+6ZyNncaBbke0b+BVzBDdw1fadO1Y/u2UvoLtpZG3RA19H3rnpR7CnfCC6b3kvvjHlkLObS9Z6y3LLeU+pV8d57oG/Ir5PNe/lGdTMbYPc+CCz/H666mc3onYLwB78mZvZXc3oDMnNSpA==
+  </data>
+ </layer>
+</map>
