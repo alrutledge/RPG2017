@@ -15,14 +15,14 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance,_In_ HINSTANCE hPrevInstance,_In_ 
 
 	sf::View playerView(sf::FloatRect(100, 100, 500, 500));
 
-	sf::Texture texturePlayer;
+	//sf::Texture texturePlayer;
 	
-	if (!texturePlayer.loadFromFile("tileset/test1.png"))
-	{
-		return EXIT_FAILURE;
-	}
+	//if (!texturePlayer.loadFromFile("tileset/test1.png"))
+	//{
+	//	return EXIT_FAILURE;
+	//}
 	
-	class Player player(texturePlayer, sf::Vector2f(300,300));
+	Player player(sf::Vector2f(300,300));
 
 
 	float deltaTime = 0.0f;
@@ -46,11 +46,11 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance,_In_ HINSTANCE hPrevInstance,_In_ 
 		tileMap.draw();
 
 		player.updateMovement();
-		player.draw(window);
+		//player.draw(window);
 		
 		window.display();
 
-		playerView.setCenter(player.getRectPosition());
+		//playerView.setCenter(player.getRectPosition());
 		window.setView(playerView);
 
 	}

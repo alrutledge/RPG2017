@@ -157,18 +157,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animator.cpp" />
-    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SpriteAnimation.cpp" />
     <ClCompile Include="TileData.cpp" />
     <ClCompile Include="TileMap.cpp" />
     <ClCompile Include="TileMapLayer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animator.h" />
-    <ClInclude Include="Entity.h" />
     <ClInclude Include="Appearance.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="SpriteAnimation.h" />
     <ClInclude Include="TileData.h" />
     <ClInclude Include="TileMap.h" />
     <ClInclude Include="TileMapLayer.h" />

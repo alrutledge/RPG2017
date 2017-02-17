@@ -1,18 +1,21 @@
 #pragma once
-#include "Entity.h"
 #include "Animator.h"
 
-class Player:public Entity
+class Player
 {
 private:
 	float movementSpeed = .1f;
 	int attackDamage = 0;
 	int counterWalking = 0;
 
+	sf::Texture m_texturePlayer;
+
+	Animator animator;
+
 public:
 	void updateMovement();
 
-	Player(sf::Texture &texture, sf::Vector2f startPosition);
+	Player(sf::Vector2f startPosition);
 
 	~Player();
 };
