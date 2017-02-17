@@ -45,8 +45,10 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance,_In_ HINSTANCE hPrevInstance,_In_ 
 
 		tileMap.draw();
 
-		player.updateMovement();
-		//player.draw(window);
+		//player.updateMovement();
+		
+		player.updateMovement(window);
+	
 		
 		window.display();
 

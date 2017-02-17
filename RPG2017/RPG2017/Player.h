@@ -9,14 +9,17 @@ private:
 	int counterWalking = 0;
 
 	sf::Texture m_texturePlayer;
+	sf::RectangleShape m_rect;
 
 	Animator animator;
 
 public:
-	void updateMovement();
+	void updateMovement(sf::RenderTarget & renderTarget);
 
 	Player(sf::Vector2f startPosition);
 
 	~Player();
+
+	void Player::movement(float xMovement, float yMovement);
 };
 

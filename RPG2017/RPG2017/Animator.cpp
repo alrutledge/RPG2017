@@ -16,21 +16,10 @@
 //{
 //}
 
-void Animator::update(int row, float deltaTime)
+void Animator::update()
 {
-	//currentImage.y = row;
-	//totalTime += deltaTime;
 
-	//if (totalTime >= switchTime)
-	//{
-	//	totalTime -= switchTime;
-	//	currentImage.x++;
 
-	//	if (currentImage.x > imageCount.x)
-	//	{
-	//		currentImage.x = 0;
-	//	}
-	//}
 }
 
 void Animator::draw(sf::RenderTarget & renderTarget)

@@ -7,9 +7,6 @@ class Animator : public Appearance
 {
 
 private:
-
-
-private:
 	std::map<std::string, SpriteAnimation> m_animations;
 
 
@@ -18,7 +15,7 @@ public:
 	
 	//~Animator();
 
-	void update(int row, float deltaTime);
+	void update();
 
 	virtual void draw(sf::RenderTarget &renderTarget) override;  //virtual function from Apperance Interface
 

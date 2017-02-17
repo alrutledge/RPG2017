@@ -25,6 +25,8 @@ Player::Player(sf::Vector2f startPosition)
 	moveDownFrame2.setTextureRect(sf::IntRect(34, 0, 17, 32));
 
 	//m_rect.setSize(spriteSize);
+
+
 	//m_rect.setPosition(startPosition);
 
 
@@ -43,27 +45,28 @@ Player::~Player()
 
 }
 
-void Player::updateMovement() 
+void Player::updateMovement(sf::RenderTarget & renderTarget)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) 
 	{
-		//movement(0, -movementSpeed);
+		movement(0, -movementSpeed);
+		animator.draw(renderTarget);
 		//setTextureArea(sf::IntRect(counterWalking * 17, 1 * 32, 17, 32));
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
 	{
-		//movement(0, movementSpeed);
+		movement(0, movementSpeed);
 		//setTextureArea(sf::IntRect(counterWalking * 17, 0 * 32, 17, 32));
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-		//movement(-movementSpeed, 0);
+		movement(-movementSpeed, 0);
 		//setTextureArea(sf::IntRect(counterWalking * 17, 2 * 32, 17, 32));
 
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
-		//movement(movementSpeed, 0);
+		movement(movementSpeed, 0);
 		//setTextureArea(sf::IntRect(counterWalking * 17, 3 * 32, 17, 32));
 		
 	}
@@ -74,5 +77,10 @@ void Player::updateMovement()
 	{
 		counterWalking = 0;
 	}
+}
+
+void Player::movement(float xMovement, float yMovement)
+{
+	m_rect.move(xMovement, yMovement);
 }
 

@@ -16,3 +16,4 @@ void SpriteAnimation::addFrame(sf::Sprite sprite)
 {
 	spriteVector.emplace_back(sprite);
 }
+
