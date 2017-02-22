@@ -4,6 +4,10 @@
 class Player
 {
 private:
+	void setAnimation(std::string name);
+
+	void movement(float xMovement, float yMovement);
+
 	float movementSpeed = .1f;
 	int attackDamage = 0;
 	int counterWalking = 0;
@@ -13,13 +17,16 @@ private:
 
 	Animator animator;
 
+	std::string m_animationName;
+
 public:
-	void updateMovement(sf::RenderTarget & renderTarget);
+
+	void update(float deltaTime);
 
 	Player(sf::Vector2f startPosition);
 
 	~Player();
 
-	void Player::movement(float xMovement, float yMovement);
+	void draw(sf::RenderTarget & renderTarget);
 };
 

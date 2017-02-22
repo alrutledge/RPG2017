@@ -47,7 +47,8 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance,_In_ HINSTANCE hPrevInstance,_In_ 
 
 		//player.updateMovement();
 		
-		player.updateMovement(window);
+		player.update(deltaTime);
+		player.draw(window);
 	
 		
 		window.display();
