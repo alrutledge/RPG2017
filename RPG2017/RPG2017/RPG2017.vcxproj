@@ -176,6 +176,7 @@
   <ItemGroup>
     <ProjectReference Include="library\tmxlite\tmxlite\tmxlite.vcxproj">
       <Project>{0bc0c535-febb-4a83-8197-af74fa26e100}</Project>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
