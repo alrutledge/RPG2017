@@ -159,7 +159,7 @@
     <ClCompile Include="Animator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="SpriteAnimation.cpp" />
+    <ClCompile Include="AnimatedSprite.cpp" />
     <ClCompile Include="TileData.cpp" />
     <ClCompile Include="TileMap.cpp" />
     <ClCompile Include="TileMapLayer.cpp" />
@@ -168,7 +168,7 @@
     <ClInclude Include="Animator.h" />
     <ClInclude Include="Appearance.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="SpriteAnimation.h" />
+    <ClInclude Include="AnimatedSprite.h" />
     <ClInclude Include="TileData.h" />
     <ClInclude Include="TileMap.h" />
     <ClInclude Include="TileMapLayer.h" />

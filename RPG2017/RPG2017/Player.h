@@ -10,7 +10,6 @@ private:
 
 	float movementSpeed = .1f;
 	int attackDamage = 0;
-	int counterWalking = 0;
 
 	sf::Texture m_texturePlayer;
 	sf::RectangleShape m_rect;
@@ -18,6 +17,10 @@ private:
 	Animator animator;
 
 	std::string m_animationName;
+
+	enum class PlayerFacing {UP, DOWN, LEFT, RIGHT};
+	
+	PlayerFacing playerDirection = PlayerFacing::DOWN;
 
 public:
 

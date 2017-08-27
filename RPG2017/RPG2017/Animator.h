@@ -1,7 +1,7 @@
 #pragma once
 #include "Appearance.h"
 #include <SFML\Graphics.hpp>
-#include "SpriteAnimation.h"
+#include "AnimatedSprite.h"
 
 class Animator : public Appearance
 {
@@ -9,7 +9,7 @@ class Animator : public Appearance
 private:
 
 
-	std::map<std::string, SpriteAnimation> m_animations;
+	std::map<std::string, AnimatedSprite> m_animations;
 
 	std::string m_animationName;
 
@@ -24,7 +24,7 @@ public:
 
 	virtual void draw(sf::RenderTarget &renderTarget, sf::Vector2f position) override;  //virtual function from Apperance Interface
 
-	void addAnimation(SpriteAnimation spriteAnimation, std::string animationName);
+	void addAnimation(AnimatedSprite spriteAnimation, std::string animationName);
 
 };
 

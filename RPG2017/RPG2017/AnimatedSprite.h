@@ -2,7 +2,7 @@
 #include <vector>
 #include "SFML\Graphics.hpp"
 
-class SpriteAnimation
+class AnimatedSprite
 {
 private:
 	float m_elapsedTime = 0.0f;
@@ -10,9 +10,9 @@ private:
 	std::vector <sf::Sprite> spriteVector;
 
 public:
-	SpriteAnimation(float frameDuration);
+	AnimatedSprite(float frameDuration);
 
-	~SpriteAnimation();
+	~AnimatedSprite();
 
 	void addFrame(sf::Sprite sprite);
 

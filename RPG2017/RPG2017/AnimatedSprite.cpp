@@ -1,28 +1,28 @@
-#include "SpriteAnimation.h"
+#include "AnimatedSprite.h"
 
 
 
-SpriteAnimation::SpriteAnimation(float frameDuration):
+AnimatedSprite::AnimatedSprite(float frameDuration):
 m_frameDuration(frameDuration)
 {
 	
 }
 
-SpriteAnimation::~SpriteAnimation()
+AnimatedSprite::~AnimatedSprite()
 {
 }
 
-void SpriteAnimation::addFrame(sf::Sprite sprite)
+void AnimatedSprite::addFrame(sf::Sprite sprite)
 {
 	spriteVector.emplace_back(sprite);
 }
 
-void SpriteAnimation::reset()
+void AnimatedSprite::reset()
 {
 	m_elapsedTime = 0.0f;
 }
 
-void SpriteAnimation::update(float deltaTime)
+void AnimatedSprite::update(float deltaTime)
 {
 	m_elapsedTime += deltaTime;
 	float totalAnimationTime = m_frameDuration * static_cast<float>(spriteVector.size());
@@ -36,7 +36,7 @@ void SpriteAnimation::update(float deltaTime)
 	}
 }
 
-void SpriteAnimation::draw(sf::RenderTarget & renderTarget, sf::Vector2f position)
+void AnimatedSprite::draw(sf::RenderTarget & renderTarget, sf::Vector2f position)
 {
 	int currentFrameIndex = static_cast<int>(m_elapsedTime / m_frameDuration);
 	spriteVector[currentFrameIndex].setPosition(position);
