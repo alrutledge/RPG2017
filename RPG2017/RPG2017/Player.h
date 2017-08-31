@@ -1,5 +1,6 @@
 #pragma once
 #include "Animator.h"
+#include "Collider.h"
 
 class Player
 {
@@ -31,5 +32,7 @@ public:
 	~Player();
 
 	void draw(sf::RenderTarget & renderTarget);
+
+	Collider GetCollider();
 };
 

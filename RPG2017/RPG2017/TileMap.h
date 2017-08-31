@@ -12,12 +12,6 @@ private:
 	std::map<uint32_t, TileData> m_tileData;
 	std::vector<TileMapLayer> m_tileLayers;
 
-	//**deprecated**
-	//void loadTexture();  
-	//void loadTileMap();
-	//sf::Texture m_texture;
-
-
 	std::vector<sf::Texture> m_textures;  //vector of tileset textures
 	std::string m_mapPath;
 	sf::RenderTarget &m_renderTarget;

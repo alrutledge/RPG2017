@@ -2,6 +2,7 @@
 #include "Animator.h"
 #include "AnimatedSprite.h"
 #include <iostream>
+#include "Collider.h"
 
 
 
@@ -202,4 +203,10 @@ void Player::draw(sf::RenderTarget & renderTarget)
 	animator.draw(renderTarget, m_rect.getPosition());
 	
 }
+
+Collider Player::GetCollider()
+{
+	return Collider(m_rect);
+}
+
 

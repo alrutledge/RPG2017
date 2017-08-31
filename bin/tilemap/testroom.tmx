@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="tilesetformattedupdate1" tilewidth="32" tileheight="32">
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="11">
+ <tileset firstgid="1" name="tilesetformattedupdate1" tilewidth="32" tileheight="32" tilecount="216" columns="18">
   <image source="image/maptile/tilesetformattedupdate1.png" width="576" height="384"/>
  </tileset>
  <layer name="Ground" width="20" height="20">
@@ -23,4 +23,11 @@
    eJxjYBgFIxEYI7ETcbCR1RACrmj8AiAuJKCGFNAExM0U6B8Fo2AUUB8AABSOA5k=
   </data>
  </layer>
+ <objectgroup color="#aa0000" name="Collision">
+  <object id="6" x="127" y="193.5" width="415" height="62.5"/>
+  <object id="7" x="129.5" y="477.5" width="414.5" height="1"/>
+  <object id="8" x="531.5" y="193" width="11" height="288.5"/>
+  <object id="9" x="128.5" y="193.5" width="12" height="284.5"/>
+  <object id="10" x="333" y="230.5" width="38" height="51"/>
+ </objectgroup>
 </map>
